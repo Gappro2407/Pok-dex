@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="shortcut icon" href="../src/img/pokeball.png">
+    <link rel="stylesheet" href="/src/css/index.css">
+    <link rel="stylesheet" href="/src/css/card.css">
+    <link rel="stylesheet" href="/src/css/search.css">
+    <link rel="stylesheet" href="/src/css/media-query.css">
+    <link href="//db.onlinewebfonts.com/c/487390d5558cff7a17ce35d7d92a0540?family=Pretendo" rel="stylesheet"
+        type="text/css" />
+</head>
+
+<body>
+    <embed src="../src/sounds/8bits.mp3" autostarty="true" loop="true" volume="50" hidden="true" id="music">
+    <div class="machine">
+        <h1>Nintendo</h1>
+        <div class="initial-image"></div>
+        <div class="container">
+            <main class="main">
+                <section class="card">
+                    <div id="poke-name"></div>
+                    <div class="card-content">
+                        <div id="poke-img-container">
+                            <img id="poke-img" src="../src/img/poke-shadow.svg" alt="pokemon">
+                        </div>
+                        <div id="poke-info-container">
+                            <div id="poke-id"></div>
+                            <div id="poke-types"></div>
+                            <div id="poke-stats"></div>
+                        </div>
+                    </div>
+                </section>
+                <aside class="search">
+                    <div class="search-image">
+                        <img id="search-image" src="../src/img/pokestop.png" alt="img search">
+                    </div>
+                    <form action="" onsubmit="searchPokemon(event)">
+                        <label for="">Search your Pokemon</label>
+                        <input type="text" name="pokemon" autocomplete="off">
+                    </form>
+                </aside>
+            </main>
+
+            <footer class="pokemons"></footer>
+        </div>
+        <img id="joystick" src="/src/img/Palanca_.png" alt="joystick">
+        <img id="joystick2" src="/src/img/Palanca.png" alt="joystick">
+        <h2>Pokedex</h2>
+    </div>
+    <script src="../src/js/index.js"></script>
+</body>
+
+</html>

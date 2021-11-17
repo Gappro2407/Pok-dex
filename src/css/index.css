@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
+@import url(//db.onlinewebfonts.com/c/487390d5558cff7a17ce35d7d92a0540?family=Pretendo);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: #e60012; */
+}
+#music{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.machine {
+  padding: 20px 0;
+  background-color: #e60012;
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.machine h1 {
+  font-family: "Pretendo", sans-serif;
+  font-size: 27px;
+  letter-spacing: 2px;
+  text-align: center;
+  width: 100%;
+  padding: 0;
+  margin-bottom:20px ;
+  color: white;
+}
+.machine h2 {
+  font-family: "Comfortaa", cursive;
+  font-size: 27px;
+  letter-spacing: 2px;
+  text-align: center;
+  width: 100%;
+  padding: 0;
+  color: white;
+  margin: 5px;
+}
+#joystick {
+  width: 10%;
+  height: auto;
+  position: fixed;
+  bottom: 0;
+  left: 50px;
+}
+#joystick2 {
+  width: 10%;
+  height: auto;
+  position: fixed;
+  bottom: 0;
+  right: 50px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../img/background3.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 90%;
+  height: 100vh;
+  border: 8px solid black;
+  border-radius: 10px;
+  padding: 10px 5%;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  flex: 1;
+  font-family: "Comfortaa", cursive;
+}
+
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex: 1;
+  width: 100%;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  padding-bottom: 10px;
+  background-color: white;
+  border-radius: 10px;
+  margin:1% 0;
+}

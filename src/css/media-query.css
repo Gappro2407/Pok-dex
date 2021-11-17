@@ -1,0 +1,41 @@
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    height: auto;
+  }
+  .main{
+    margin: 1% 0;
+    justify-content: center;
+  }
+  .search {
+    order: -1;
+    width: 100%;
+    padding: 3% 0;
+    text-align: center;
+  }
+  .search form{
+    flex: 1;
+  }
+  .card{
+    width: 100%;
+  }
+
+  #poke-img-container {
+    width: 100%;
+    margin: 3% 0;
+  }
+  #joystick{
+    bottom: 0;
+    left: 0;
+    width: 20%;
+  }
+  #joystick2{
+    bottom: 0;
+    right: 0;
+    width: 20%;
+  }
+}

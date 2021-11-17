@@ -1,0 +1,47 @@
+.card {
+  width: 70%;
+  height: 100%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+#poke-name {
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+  font-size: 20px;
+}
+.card-content {
+  flex-wrap: wrap;
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: space-around;
+}
+#poke-img-container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#poke-img {
+  border-radius: 100%;
+  width: 70%;
+  height: 90%;
+  margin: 0;
+  padding: 0;
+}
+#poke-info-container {
+  text-transform: uppercase;
+  text-align: center;
+  width: 50%;
+  height: auto;
+}
+.poke-info-hidden {
+  display: none;
+}
